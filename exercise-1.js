@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
 });
 
 connection.query('show databases', function(err, results) {
-var table = new Table();
+/*var table = new Table();
  
 table.push(
     ['Database', 'information_schema']
@@ -20,7 +20,7 @@ table.push(
   
 );
 
-console.log(table.toString());
+console.log(table.toString());*/
    
     console.log(results);
 
